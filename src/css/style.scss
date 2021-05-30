@@ -1,0 +1,32 @@
+@import "zero.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com;/css2?family=Ubuntu:wght@300&display=swap');
+@import "header/header.scss";
+@import "firstScreen/firstScreen.scss";
+@import "advantages/advantages.scss";
+@import "feedback/feedback.scss";
+@import "footer/footer.scss";
+@import "loginModal/loginModal.scss";
+body{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-size: 54px;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 44px;
+	text-transform: uppercase;
+}
+h6{
+	margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 24px;
+}
+

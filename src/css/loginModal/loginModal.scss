@@ -1,0 +1,40 @@
+.loginModal{
+  position: absolute;
+  padding: 30px;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  background-color: #F3F3F3;
+  border-radius: 15px;
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input{
+      width: 420px;
+      padding: 10px;
+      border-radius: 10px;
+      border:1px solid #C4C4C4;
+      margin: 10px;
+      color: #000;
+      &::placeholder{
+        text-transform: capitalize;
+        color: #000;
+      }
+    }
+    button{
+      width: 420px;
+      height: 50px;
+      border-radius:10px;
+      box-shadow: 2px 3px 4px -1px rgba(0, 0, 0, 0.45);
+
+    }
+  }
+}
+.loginModal-none{
+  display: none;
+}
