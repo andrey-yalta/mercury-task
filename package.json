@@ -1,6 +1,6 @@
 {
   "name": "mercury-task",
-  "homapage": "https://andrey-yalta.github.io/mercury-test-task",
+  "homapage": "https://andrey-yalta.github.io/mercury-test-task/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
