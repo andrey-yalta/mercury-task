@@ -13,7 +13,9 @@ function App() {
     React.useEffect(()=>{
         getPhotos()
         getPosts()
-    })
+        console.log('use effect')
+        debugger
+    },[])
 
   return (
         <div>
